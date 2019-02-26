@@ -1,0 +1,378 @@
+* {
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+#logo {
+    width: 150px;
+}
+
+#container {
+    margin-top: 20px;
+    max-width: 1100px;
+    background-color: #003f5f;
+    clear: both;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    background-color: #003f5f;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    text-align: right;
+    float: left;
+    line-height: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    margin-right: 50px;
+}
+
+nav a:hover {
+    color: #f08b1d;
+}
+
+body {
+    padding-bottom: 50px;
+}
+
+form {
+    text-align: center;
+    width: 40%;
+    margin-top: 50px;
+    background-color: #003f5f;
+    border-radius: 10px;
+}
+
+input {
+    width: 350px;
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 17px;
+}
+
+.result {
+    font-size: 10px;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+button {
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 30px;
+    background-color: #f08b1d;
+    border-radius: 30px;
+    transition: background-color 0.6s ease-in-out;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+span {
+    color: white;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: white;
+    color: #f08b1d;
+}
+
+h1 {
+    text-align: center;
+    color: #003f5f;
+    margin-top: 30px;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px black;
+    animation: zoom 5s ease-in infinite;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+h2 {
+    text-align: center;
+    color: #f08b1d;
+    margin-top: 30px;
+    font-size: 2em;
+    padding-top: 10px;
+}
+
+p {
+    color: #f08b1d;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 25px;
+}
+
+form a {
+    text-decoration: none;
+    border-bottom: 3px solid #f08b1d;
+    font-family: sans-serif;
+    color: #f08b1d;
+}
+
+.firstClass {
+    border-bottom: 3px solid green;
+}
+
+.secondClass {
+    border-bottom: 3px solid red;
+}
+
+.slider {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.slide1 {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-image: url('../images/tumblr_p1nbs1W9E21u8b80no3_1280.jpg');
+    animation: fade 10s ease-in-out infinite;
+}
+
+.slide2 {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/banner1.jpg");
+    animation: fade2 10s infinite;
+}
+
+.slide3 {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/Fantastic_Beasts_Standard_Sdtk_Cover_01_1425px_RGB.jpg");
+    animation: fade3 10s infinite;
+}
+
+.slide4 {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/tumblr_p0pud7db9i1u8b80no1_1280.jpg");
+    animation: fade4 10s ease-out infinite;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1
+    }
+    33.333% {
+        opacity: 0
+    }
+    66.666% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes fade2 {
+    0% {
+        opacity: 0
+    }
+    33.333% {
+        opacity: 1
+    }
+    66.666% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes fade3 {
+    0% {
+        opacity: 0
+    }
+    33.333% {
+        opacity: 0
+    }
+    66.666% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes fade4 {
+    0% {
+        opacity: 0
+    }
+    33.333% {
+        opacity: 0
+    }
+    66.666% {
+        opacity: 0
+    }
+    95% {
+        opacity: 1
+    }
+}
+
+#addmovie {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.trailer {
+    color: white;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.trailer a:hover {
+    color: #f08b1d;
+}
+
+h3 {
+    color: white;
+}
+
+.description {
+    text-align: left;
+    font-size: 10pt;
+}
+
+.read {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 30px;
+    background-color: #f08b1d;
+    border-radius: 10px;
+    transition: background-color 0.6s ease-in-out;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+.read:hover {
+    background-color: white;
+    color: #f08b1d;
+}
+
+.read a:hover {
+    text-decoration: none;
+}
+
+.postimg {
+    width: 220px;
+    height: 325px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.imgpost {
+    width: 220px;
+    height: 325px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#searchbox {
+    width: 100%;
+    text-align: center;
+}
+
+#search {
+    width: 20%;
+    height: 30px;
+    border-radius: 0;
+}
+
+#result a {
+    width: 20%;
+    font-size: 1em;
+    background-color: #f08b1d;
+    display: block;
+    animation: fade_in .4s ease-in alternate;
+    border-bottom: 1px solid black;
+}
+
+h3 a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+    margin-left: 20%;
+}
+
+#result a:hover {
+    background-color: white;
+    color: #f08b1d;
+}
+
+@keyframes fade_in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#modal-form {
+    width: 500px;
+}
+
+#username {
+    width: 350px;
+}
+
+#password {
+    width: 350px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #003f5f;
+}
